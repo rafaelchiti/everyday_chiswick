@@ -12,7 +12,8 @@ h1 {
   margin-bottom: 20px;
 }
 
-h2 {
+.by-label {
+  display: block;
  font-family: menlo, 'Lucida Grande';
   color: rgba(1,1,1,.4);
   font-size: 12px;
@@ -27,7 +28,34 @@ h2 {
   margin-top: 80px;
 }
 
+.photos.is-focusing {
+  margin-top: 10px;
+}
+
 .photos img {
   width: 600px;
   margin-bottom: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
+.share-info {
+  opacity: .3;
+  display: none;
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: gray;
+  transition: opacity .5s;
+}
+
+.share-info:hover {
+  opacity: 1;
+}
+
+.share-info .share-url {
+  border-bottom: 1px solid #5B5BCE;
+  color: gray;
 }

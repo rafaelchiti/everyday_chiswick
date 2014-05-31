@@ -1,0 +1,31 @@
+{
+  "name": "everyday_chiswick",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rafaelchiti/everyday_chiswick.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelchiti/everyday_chiswick/issues"
+  },
+  "homepage": "https://github.com/rafaelchiti/everyday_chiswick",
+  "dependencies": {
+    "velocity-animate": "0.0.17",
+    "browserify": "~4.1.6",
+    "jquery": "~2.1.1",
+    "underscore": "~1.6.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.6.2",
+    "watchify": "~0.10.2",
+    "vinyl-source-stream": "~0.1.1",
+    "gulp-util": "~2.2.14"
+  }
+}
