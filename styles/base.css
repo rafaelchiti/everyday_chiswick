@@ -1,0 +1,28 @@
+body {
+  padding: 20px;
+}
+
+h1 {
+  font-family: menlo, 'Lucida Grande';
+  color: rgba(1,1,1,.7);
+  font-size: 18px;
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+ font-family: menlo, 'Lucida Grande';
+  color: rgba(1,1,1,.4);
+  font-size: 12px;
+  margin: auto;
+  width: 500px;
+  text-align: center;
+}
+
+.photos {
+  width: 940px;
+  margin: auto;
+  margin-top: 80px;
+}
