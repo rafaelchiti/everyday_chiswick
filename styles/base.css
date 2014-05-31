@@ -22,7 +22,12 @@ h2 {
 }
 
 .photos {
-  width: 940px;
+  width: 600px;
   margin: auto;
   margin-top: 80px;
+}
+
+.photos img {
+  width: 600px;
+  margin-bottom: 100px;
 }
